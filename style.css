@@ -8,11 +8,26 @@ a {
   text-decoration: none;
 }
 
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header .heading {
@@ -149,9 +164,8 @@ main {
 .instagram .sidebar-contents {
   display: flex;
   flex-wrap: wrap;
-}ma
-
-.instagram-box {
+}
+ma .instagram-box {
   width: 110px;
   padding-top: 110px;
   background-size: cover;
