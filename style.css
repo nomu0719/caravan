@@ -165,7 +165,7 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-ma .instagram-box {
+.instagram-box {
   width: 110px;
   padding-top: 110px;
   background-size: cover;
@@ -211,4 +211,57 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+  main {
+    display: block;
+    width: 100%;
+  }
+  .blog-item {
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+    margin: 0%;
+  }
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 0 3% 0 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
+ .pagination{
+   margin-bottom: 50px;
+ }
 }
