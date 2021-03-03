@@ -258,10 +258,10 @@ footer {
     width: 48%;
     padding-top: 48%;
   }
-  .instagram-box:nth-child(odd){
+  .instagram-box:nth-child(odd) {
     margin-right: 4%;
   }
- .pagination{
-   margin-bottom: 50px;
- }
+  .pagination {
+    margin-bottom: 50px;
+  }
 }
